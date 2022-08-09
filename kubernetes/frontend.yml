@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  namespace: mlsc-test
+  labels:
+    app: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: frontend
+        image: mlsccg.azurecr.io/marketingportal_client:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+          - containerPort: 3000
+            protocol: TCP
+        command: ["npm", "start"]
+      imagePullSecrets:
+        - name: mlsccg  

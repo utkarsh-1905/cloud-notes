@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  namespace: mlsc-test
+  name: backend
+  labels:
+    app: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+      - image: mlsccg.azurecr.io/marketingportal_backend:latest
+        name: backend
+        imagePullPolicy: IfNotPresent
+        ports:
+          - containerPort: 8000
+            protocol: TCP 
+        command: ["/bin/sh", "-c"]
+        args:
+        - python manage.py makemigrations UserManagement && python manage.py makemigrations CompanyManagement && python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000
+      imagePullSecrets:
+        - name: mlsccg  
