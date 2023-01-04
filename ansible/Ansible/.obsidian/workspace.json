@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "ff794a071c4fc80a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3ccb1267125acdf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ded66e44dd8dbff6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ansible Configuration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb45efb5b047a2ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SSH config for hosts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55eb63f3a29460aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ansible Inventories.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92878580aa2c4ea0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ansible Modules.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4a7b0ba03f11cf97",
+    "type": "split",
+    "children": [
+      {
+        "id": "0de17af1297a075d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ae19f118071ac54",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5c10583dfa883573",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab89f11918e25822",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9228b08a69acc9c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "63b25505dd616ef4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00ec8e4d4c1680c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ansible Modules.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3ee903154dad28ea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Ansible Modules.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "507203198e02a69c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0360a780922f50be",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ansible Modules.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "92878580aa2c4ea0",
+  "lastOpenFiles": [
+    "Ansible Inventories.md",
+    "SSH config for hosts.md",
+    "Ansible Configuration.md"
+  ]
+}
